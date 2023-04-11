@@ -30,8 +30,9 @@ These things are hard-coded right now but will be changed when the project is ov
 
 ## Heuristics 
 1. Walking up and down to chords (based on progression)
-2. Sanctioning notes that are not in the scale except when they are used for chromatic walk. Program chooses another note from scale after sanction.
-3. Sanctioning notes that are frequently repeated (also by choosing random note from scale instead).
+2. Sanctioning notes that are not in the scale except when they are used for chromatic walk.
+3. Sanctioning notes that are frequently repeated.
+4. Pseudo-random choice of notes from scale to cover up sanctioned notes. Choice probability is based on current chord playing in the background.
 
 ## Dataset
 https://arxiv.org/abs/2008.07142
