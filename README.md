@@ -1,5 +1,5 @@
 # MusicGeneration
-Generating music using LSTM reccurent neural network combined with some music heuristics:
+Generating music using LSTM reccurent neural network combined with some original domain-specific heuristics:
 
 ## Process
 I used POP909 dataset and music21 set of toolkit to feed my lstm neural network for generating music. 
