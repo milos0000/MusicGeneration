@@ -11,6 +11,10 @@ The next thing on schedule was transforming those note sequences to some form of
 ## Network architecture:
 LSTM(1024)
 
+Dropout(0.5)
+
+LSTM(512)
+
 Dropout(0.25)
 
 Dense(328)
@@ -25,8 +29,6 @@ scale (which user wants the song to be composed in)
 seed (first 16 notes of a song)
 
 progression (4 chords cycle)
-
-These things are hard-coded right now but will be changed when the project is over.
 
 ## Heuristics 
 1. Walking up and down to chords (based on progression)
