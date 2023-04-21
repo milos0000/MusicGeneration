@@ -21,7 +21,7 @@ Dense(328)
 
 Dense(softmax)
 
-# Flow 
+## Flow 
 Program prompts user for: 
 
 scale (which user wants the song to be composed in)
